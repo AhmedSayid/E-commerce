@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assest/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    ::placeholder {
+        padding-left: 20px;
+    }
+
+    * {
+        overflow-y: hidden;
+    }
+
+    @media (max-width:393px) {
+        ::placeholder {
+            padding-left: 20px;
+        }
+
+        .l {
+            margin-left: 20px;
+            transform: translateX(-0px);
+
+        }
+    }
+</style>
+
+<body>
+    <div>
+        <div style=" background: url(../assest/img/login.jpg);background-size: cover;width: 100%;
+        opacity: 1;z-index: 999;height: 100vh;
+        padding: 30px 0;">
+            <!------end bg img------>
+            <div class=" d-flex justify-content-center mt-4 px-4 py-3">
+                <div style="height:auto;width: 400px; margin-bottom: 30px; background: #ffffff;box-shadow: 3px 3px 6px 6px #77777777;border-radius: 15px;
+                " class="px-3 ">
+                    <!-----the container------>
+                    <div style="cursor: pointer;" class="d-flex justify-content-center mt-3">
+                        <div class="mx-4 mt-4 fs-4 fw-bold text-dark">SIGN IN</div>
+                        <div style="border-bottom: solid 4px #7071f6;padding-bottom: 5px;"
+                            class="mx-4 mt-4 fs-4 fw-bold text-mov">SIGN UP</div>
+                    </div>
+                    <!-----the signup------>
+                    <div style="display: flex;justify-content: center;flex-direction: column;" class="mt-5">
+                        <input style="outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                            placeholder="first name" type="text" class="my-1 mx-3">
+                        <img style="width: 26px;transform: translateY(-32px);margin-left: 13px;"
+                            src="../assest/img/user.png" alt="">
+                        <!----------->
+                        <input style="outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                            placeholder="second name" type="text" class="my-1 mx-3">
+                        <img style="width: 26px;transform: translateY(-32px);margin-left: 13px;"
+                            src="../assest/img/user.png" alt="">
+                        <!----------->
+                        <input style="outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                            placeholder="phone number" type="tel" class="my-1 mx-3">
+                        <img style="width: 20px;transform: translateY(-32px);margin-left: 13px;"
+                            src="../assest/img/tel.png" alt="">
+                        <!----------->
+                        <input style="outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                            placeholder="password" type="password" class="my-1 mx-3">
+                        <img style="width: 26px;transform: translateY(-32px);margin-left: 13px;"
+                            src="../assest/img/pass.png" alt="">
+                        <!----------->
+                        <input style="outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                            placeholder="confirm password" type="password" class=" mx-3">
+                        <img style="width: 26px;transform: translateY(-29px);margin-left: 13px;"
+                            src="../assest/img/pass.png" alt="">
+                        <!-----end of main inputs------>
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <img style="width: 20px;height:20px;transform: translateX(35px);margin-top: 7px;" class="l"
+                                src="../assest/img/city.png" alt="">
+                            <input
+                                style="width: 80px;margin-left:15px;outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                                type="text" placeholder="city">
+                            <!----------->
+                            <img style="width:20px;height: 20px;transform: translateX(20px);margin-top: 7px;"
+                                class="res" src="../assest/img/town.png" alt="">
+                            <input
+                                style="width: 80px; outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                                type="text" placeholder="town" >
+                            <!----------->
+                            <img style="transform: translateX(30px);" src="../assest/img/contry.png" alt="">
+                            <input
+                                style="width: 80px;margin-right:15px;outline: none;border: none;border-bottom:solid 1px #a6a6a6;"
+                                type="text" placeholder="cntr"class="res">
+                            <!----------->
+                        </div>
+                        <div style="display: flex;justify-content: center;flex-direction: column;margin-left: 70px;">
+                            <div class="btn btn-mov w-75 mb-3 mt-3">Sign Up</div>
+                            <!-----signup btn------>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
